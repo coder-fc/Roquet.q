@@ -11,6 +11,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/room.css">
+  <link rel="stylesheet" href="styles/modal.css">
 
   <!-- FONTS-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -61,7 +62,7 @@
           <div class="question-wrapper">
             <div class="question-content">
               <div class="user">
-                <img src="assets/avatar.svg" alt="Avatar" />
+                <img src="assets/user.svg" alt="Avatar" />
               </div>
               <div class="question">
                 <p>Qual a diferença entre const, var e let no JavaScript?</p>
@@ -82,7 +83,7 @@
           <div class="question-wrapper">
             <div class="question-content">
               <div class="user">
-                <img src="assets/avatar.svg" alt="Avatar" />
+                <img src="assets/user.svg" alt="Avatar" />
               </div>
               <div class="question">
                 <p>O que é TypeScript?</p>
@@ -103,10 +104,10 @@
           <div class="question-wrapper">
             <div class="question-content">
               <div class="user">
-                <img src="assets/avatar.svg" alt="Avatar" />
+                <img src="assets/user.svg" alt="Avatar" />
               </div>
               <div class="question">
-                <p>O que é JavaScript?</p>
+                <p>Você já sabe quais as bases você precisa melhorar para alcançar o seu próximo nível com maestria? Definiu o seu foco e objetivo para seguir em frente? Estou curiosa e embasbacada com sua perseverança por te alcançado a terceira aula e sei que vai continuar até o fim, então responde ai para gente?</p>
               </div>
             </div>
             <div class="actions">
@@ -121,12 +122,47 @@
             </div>
           </div>
 
+          <div class="question-wrapper read">
+            <div class="question-content">
+              <div class="user">
+                <img src="assets/user.svg" alt="Avatar" />
+              </div>
+              <div class="question">
+                <p>O que é JavaScript?</p>
+              </div>
+            </div>
+            <div class="actions">
+              <a href="#" class="delete">
+                <img src="assets/trash.svg" alt="Excluir" />
+                Excluir
+              </a>
+            </div>
+          </div>
+
         </div>
 
       </section>
 
     </main>
 
+  </div>
+
+  <!-- MODAL -->
+
+  <div class="modal-wrapper">
+    <div class="modal">
+      <h2>Excluir pergunta</h2>
+      <p>Tem certeza que você deseja exluir está pergunta?</p>
+      <form action="">
+        <label for-id="password" class="sr-only">Digite sua senha admin</label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+        <div class="buttons">
+          <div class="button grey">Cancelar</div>
+          <button class="red">Sim, exluir</button>
+        </div>
+      </form>
+    </div>
   </div>
 </body>
 
