@@ -1,0 +1,24 @@
+{
+  "name": "Roquet.q",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários direcionadas ao dono da pagina. Projeto desenvolvido na semana NLW Rocketseat na missão discover.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevFC-M/Roquet.q.git"
+  },
+  "keywords": [],
+  "author": "Felipe Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevFC-M/Roquet.q/issues"
+  },
+  "homepage": "https://github.com/DevFC-M/Roquet.q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
