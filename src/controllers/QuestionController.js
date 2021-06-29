@@ -6,7 +6,9 @@ module.exports = {
     const password = req.body.password
 
     console.log (`room = ${roomId}, questionId = ${questionId}, action = ${action}, password = ${password}`)
+  },
+
+  create(req, res){
+    const question = req.body.question
   }
 }
-
-// Parei em 2:15 
