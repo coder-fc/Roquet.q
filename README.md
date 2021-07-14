@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Rocket.Q" title="Rocket.Q" src="https://github.com/rocketseat-education/nlw-06-discover/raw/main/.github/rocketq.png" width="220px" />
+  <img alt="Rocket.Q" title="Rocket.Q" src="https://user-images.githubusercontent.com/73148418/117094001-f085b380-ad38-11eb-86bc-c37b38757990.png" width="220px" />
 </h1>
 
 <p align="center">
