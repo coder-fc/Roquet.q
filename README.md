@@ -17,6 +17,10 @@
 
 <br>
 
+<p align="center">
+  <img alt="Rocket.Q" src="https://github.com/DevFC-M/nlw-06-discover/blob/main/.github/Rocket_Q.png" width="100%">
+</p>
+
 
 ## 🚀 Tecnologias
 
